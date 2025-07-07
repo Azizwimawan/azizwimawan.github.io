@@ -1,0 +1,104 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-commerce Platform Test Automation",
+      "description": "Comprehensive test automation suite for a multi-vendor e-commerce platform handling 1M+ daily transactions",
+      "category": "Web Testing",
+      "technologies": ["Selenium", "TestNG", "Java", "Jenkins", "Docker"],
+      "image": "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "duration": "6 months",
+      "teamSize": "5",
+      "testCases": "1,200+",
+      "coverage": "95%",
+      "highlights": [
+        "Reduced manual testing time by 80%",
+        "Achieved 95% test coverage across all modules",
+        "Integrated with CI/CD pipeline for continuous testing",
+        "Implemented parallel test execution reducing execution time by 60%"
+      ],
+      "challenges": [
+        "Complex multi-vendor architecture",
+        "Dynamic content and real-time updates",
+        "Payment gateway integration testing"
+      ],
+      "tools": ["Selenium WebDriver", "TestNG", "Maven", "Jenkins", "Docker", "Allure Reports"],
+      "link": "#"
+    },
+    {
+      "id": "2",
+      "title": "Mobile Banking App Quality Assurance",
+      "description": "End-to-end testing strategy for a secure mobile banking application with biometric authentication",
+      "category": "Mobile Testing",
+      "technologies": ["Appium", "TestNG", "Java", "BrowserStack", "JIRA"],
+      "image": "https://images.pexels.com/photos/404973/pexels-photo-404973.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "duration": "8 months",
+      "teamSize": "4",
+      "testCases": "800+",
+      "coverage": "98%",
+      "highlights": [
+        "Implemented cross-platform testing strategy",
+        "Achieved 98% test coverage including security tests",
+        "Reduced critical bugs in production by 90%",
+        "Established automated regression testing pipeline"
+      ],
+      "challenges": [
+        "Biometric authentication testing",
+        "Multi-device compatibility",
+        "Security and compliance requirements"
+      ],
+      "tools": ["Appium", "TestNG", "BrowserStack", "Charles Proxy", "JIRA", "Confluence"],
+      "link": "#"
+    },
+    {
+      "id": "3",
+      "title": "API Testing Framework Development",
+      "description": "Custom API testing framework for microservices architecture with automated contract testing",
+      "category": "API Testing",
+      "technologies": ["RestAssured", "Python", "Pytest", "Docker", "Swagger"],
+      "image": "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "duration": "4 months",
+      "teamSize": "3",
+      "testCases": "500+",
+      "coverage": "100%",
+      "highlights": [
+        "Built reusable API testing framework",
+        "Implemented contract testing with Pact",
+        "Achieved 100% API endpoint coverage",
+        "Reduced API testing time by 70%"
+      ],
+      "challenges": [
+        "Complex microservices dependencies",
+        "Dynamic API contracts",
+        "Performance testing requirements"
+      ],
+      "tools": ["RestAssured", "Postman", "Swagger", "Pact", "Newman", "JMeter"],
+      "link": "#"
+    },
+    {
+      "id": "4",
+      "title": "Performance Testing Suite",
+      "description": "Comprehensive performance testing strategy for a high-traffic SaaS application",
+      "category": "Performance Testing",
+      "technologies": ["JMeter", "Gatling", "Jenkins", "Grafana", "InfluxDB"],
+      "image": "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "duration": "5 months",
+      "teamSize": "2",
+      "testCases": "300+",
+      "coverage": "90%",
+      "highlights": [
+        "Identified and resolved critical performance bottlenecks",
+        "Improved application response time by 40%",
+        "Established performance monitoring dashboard",
+        "Created automated performance regression tests"
+      ],
+      "challenges": [
+        "High-concurrency scenarios",
+        "Real-time data processing",
+        "Database optimization requirements"
+      ],
+      "tools": ["JMeter", "Gatling", "Grafana", "InfluxDB", "Jenkins", "AWS CloudWatch"],
+      "link": "#"
+    }
+  ]
+}

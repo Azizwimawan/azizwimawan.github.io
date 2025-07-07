@@ -1,0 +1,15 @@
+{
+  "name": "Alex Thompson",
+  "title": "Senior QA Engineer",
+  "subtitle": "Test Automation & Quality Assurance Specialist",
+  "location": "San Francisco, CA",
+  "email": "alex.thompson@example.com",
+  "phone": "+1 (555) 123-4567",
+  "linkedin": "https://linkedin.com/in/alexthompson",
+  "github": "https://github.com/alexthompson",
+  "bio": "Passionate QA Engineer with 8+ years of experience in test automation, performance testing, and quality assurance. Specialized in building robust testing frameworks and implementing CI/CD pipelines that ensure software quality at scale.",
+  "yearsOfExperience": 8,
+  "projectsCompleted": 150,
+  "bugsFound": 2500,
+  "testCasesWritten": 5000
+}

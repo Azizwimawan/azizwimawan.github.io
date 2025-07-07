@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "name": "Test Automation",
+      "icon": "Bot",
+      "color": "blue",
+      "skills": [
+        { "name": "Selenium WebDriver", "level": 95 },
+        { "name": "Cypress", "level": 90 },
+        { "name": "TestNG/JUnit", "level": 85 },
+        { "name": "Playwright", "level": 80 },
+        { "name": "Appium", "level": 75 }
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "icon": "Code",
+      "color": "green",
+      "skills": [
+        { "name": "Java", "level": 90 },
+        { "name": "Python", "level": 85 },
+        { "name": "JavaScript/TypeScript", "level": 80 },
+        { "name": "C#", "level": 75 },
+        { "name": "SQL", "level": 85 }
+      ]
+    },
+    {
+      "name": "Testing Tools",
+      "icon": "Wrench",
+      "color": "purple",
+      "skills": [
+        { "name": "JIRA", "level": 95 },
+        { "name": "TestRail", "level": 90 },
+        { "name": "Postman", "level": 85 },
+        { "name": "Jenkins", "level": 80 },
+        { "name": "Docker", "level": 75 }
+      ]
+    },
+    {
+      "name": "Testing Types",
+      "icon": "CheckCircle",
+      "color": "orange",
+      "skills": [
+        { "name": "API Testing", "level": 90 },
+        { "name": "Performance Testing", "level": 85 },
+        { "name": "Security Testing", "level": 80 },
+        { "name": "Mobile Testing", "level": 85 },
+        { "name": "Database Testing", "level": 80 }
+      ]
+    }
+  ]
+}

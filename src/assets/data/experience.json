@@ -1,0 +1,46 @@
+{
+  "experience": [
+    {
+      "company": "TechCorp Solutions",
+      "position": "Senior QA Engineer",
+      "duration": "2020 - Present",
+      "location": "San Francisco, CA",
+      "description": "Leading QA initiatives for multiple product lines, mentoring junior QA engineers, and implementing comprehensive testing strategies.",
+      "achievements": [
+        "Reduced production bugs by 75% through improved testing processes",
+        "Implemented CI/CD testing pipeline reducing deployment time by 50%",
+        "Mentored 5 junior QA engineers and established QA best practices",
+        "Led cross-functional testing efforts for 3 major product launches"
+      ],
+      "technologies": ["Selenium", "TestNG", "Jenkins", "Docker", "JIRA", "Confluence"]
+    },
+    {
+      "company": "InnovateTech",
+      "position": "QA Engineer",
+      "duration": "2018 - 2020",
+      "location": "Seattle, WA",
+      "description": "Developed automated testing frameworks and executed comprehensive testing strategies for web and mobile applications.",
+      "achievements": [
+        "Built automated testing framework reducing manual testing by 60%",
+        "Improved test coverage from 40% to 85% across all applications",
+        "Implemented API testing strategy for microservices architecture",
+        "Collaborated with development teams to establish testing standards"
+      ],
+      "technologies": ["Cypress", "Appium", "Python", "Postman", "TestRail", "Git"]
+    },
+    {
+      "company": "StartupXYZ",
+      "position": "Junior QA Engineer",
+      "duration": "2016 - 2018",
+      "location": "Austin, TX",
+      "description": "Performed manual and automated testing for early-stage startup products, contributing to quality assurance processes.",
+      "achievements": [
+        "Established initial QA processes and documentation",
+        "Performed comprehensive testing for 5 product releases",
+        "Identified and documented 500+ bugs across various platforms",
+        "Contributed to improving overall product quality by 40%"
+      ],
+      "technologies": ["Selenium", "Manual Testing", "Bug Tracking", "Test Documentation"]
+    }
+  ]
+}
