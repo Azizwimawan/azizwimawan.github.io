@@ -2,9 +2,26 @@ import React, { useState } from 'react';
 import { ExternalLink, Calendar, Users, Target, TrendingUp, Filter } from 'lucide-react';
 import projectsData from '../assets/data/projects.json';
 
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  technologies: string[];
+  image: string;
+  duration: string;
+  teamSize: string;
+  testCases: string;
+  coverage: string;
+  highlights: string[];
+  challenges: string[];
+  tools: string[];
+  link: string;
+}
+
 const Projects: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedProject, setSelectedProject] = useState<any>(null);
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const categories = ['All', ...Array.from(new Set(projectsData.projects.map(p => p.category)))];
 
@@ -12,11 +29,11 @@ const Projects: React.FC = () => {
     ? projectsData.projects 
     : projectsData.projects.filter(p => p.category === selectedCategory);
 
-  const ProjectModal = ({ project, onClose }: { project: any; onClose: () => void }) => (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
+  const ProjectModal = ({ project, onClose }: { project: Project; onClose: () => void }) => (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50">
       <div className="bg-white rounded-xl max-w-4xl max-h-[90vh] overflow-y-auto">
         <div className="p-8">
-          <div className="flex justify-between items-start mb-6">
+          <div className="flex items-start justify-between mb-6">
             <h3 className="text-2xl font-bold text-gray-900">{project.title}</h3>
             <button
               onClick={onClose}
@@ -29,51 +46,51 @@ const Projects: React.FC = () => {
           <img
             src={project.image}
             alt={project.title}
-            className="w-full h-64 object-cover rounded-lg mb-6"
+            className="object-cover w-full h-64 mb-6 rounded-lg"
           />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Project Overview</h4>
-              <p className="text-gray-600 mb-4">{project.description}</p>
+              <h4 className="mb-3 text-lg font-semibold text-gray-900">Project Overview</h4>
+              <p className="mb-4 text-gray-600">{project.description}</p>
               
-              <div className="space-y-2 mb-6">
+              <div className="mb-6 space-y-2">
                 <div className="flex items-center">
-                  <Calendar className="w-4 h-4 text-gray-500 mr-2" />
+                  <Calendar className="w-4 h-4 mr-2 text-gray-500" />
                   <span className="text-sm text-gray-600">Duration: {project.duration}</span>
                 </div>
                 <div className="flex items-center">
-                  <Users className="w-4 h-4 text-gray-500 mr-2" />
+                  <Users className="w-4 h-4 mr-2 text-gray-500" />
                   <span className="text-sm text-gray-600">Team Size: {project.teamSize}</span>
                 </div>
                 <div className="flex items-center">
-                  <Target className="w-4 h-4 text-gray-500 mr-2" />
+                  <Target className="w-4 h-4 mr-2 text-gray-500" />
                   <span className="text-sm text-gray-600">Test Cases: {project.testCases}</span>
                 </div>
                 <div className="flex items-center">
-                  <TrendingUp className="w-4 h-4 text-gray-500 mr-2" />
+                  <TrendingUp className="w-4 h-4 mr-2 text-gray-500" />
                   <span className="text-sm text-gray-600">Coverage: {project.coverage}</span>
                 </div>
               </div>
             </div>
             
             <div>
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Key Highlights</h4>
-              <ul className="space-y-2 mb-6">
+              <h4 className="mb-3 text-lg font-semibold text-gray-900">Key Highlights</h4>
+              <ul className="mb-6 space-y-2">
                 {project.highlights.map((highlight: string, index: number) => (
                   <li key={index} className="flex items-start">
-                    <span className="w-2 h-2 bg-blue-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span className="text-gray-600 text-sm">{highlight}</span>
+                    <span className="flex-shrink-0 w-2 h-2 mt-2 mr-3 bg-blue-500 rounded-full"></span>
+                    <span className="text-sm text-gray-600">{highlight}</span>
                   </li>
                 ))}
               </ul>
               
-              <h4 className="text-lg font-semibold text-gray-900 mb-3">Technologies Used</h4>
+              <h4 className="mb-3 text-lg font-semibold text-gray-900">Technologies Used</h4>
               <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech: string, index: number) => (
                   <span
                     key={index}
-                    className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm font-medium"
+                    className="px-3 py-1 text-sm font-medium text-blue-800 bg-blue-100 rounded-full"
                   >
                     {tech}
                   </span>
@@ -88,10 +105,10 @@ const Projects: React.FC = () => {
 
   return (
     <section id="projects" className="py-20 bg-white">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+      <div className="container px-4 mx-auto">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-4xl font-bold text-gray-900">Featured Projects</h2>
+          <p className="max-w-2xl mx-auto text-xl text-gray-600">
             Showcase of comprehensive testing projects and quality assurance initiatives
           </p>
         </div>
@@ -99,8 +116,8 @@ const Projects: React.FC = () => {
         {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <div className="flex items-center mb-4">
-            <Filter className="w-5 h-5 text-gray-500 mr-2" />
-            <span className="text-gray-700 font-medium">Filter by category:</span>
+            <Filter className="w-5 h-5 mr-2 text-gray-500" />
+            <span className="font-medium text-gray-700">Filter by category:</span>
           </div>
           {categories.map((category) => (
             <button
@@ -118,28 +135,28 @@ const Projects: React.FC = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+              className="overflow-hidden transition-all duration-300 transform bg-white shadow-lg rounded-xl hover:shadow-xl hover:-translate-y-1"
             >
               <div className="relative">
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-48 object-cover"
+                  className="object-cover w-full h-48"
                 />
                 <div className="absolute top-4 right-4">
-                  <span className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm font-medium">
+                  <span className="px-3 py-1 text-sm font-medium text-white bg-blue-600 rounded-full">
                     {project.category}
                   </span>
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4 line-clamp-3">{project.description}</p>
+                <h3 className="mb-2 text-xl font-bold text-gray-900">{project.title}</h3>
+                <p className="mb-4 text-gray-600 line-clamp-3">{project.description}</p>
                 
                 <div className="grid grid-cols-2 gap-4 mb-4">
                   <div className="text-center">
@@ -156,28 +173,28 @@ const Projects: React.FC = () => {
                   {project.technologies.slice(0, 3).map((tech: string, index: number) => (
                     <span
                       key={index}
-                      className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-sm"
+                      className="px-2 py-1 text-sm text-gray-700 bg-gray-100 rounded"
                     >
                       {tech}
                     </span>
                   ))}
                   {project.technologies.length > 3 && (
-                    <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded text-sm">
+                    <span className="px-2 py-1 text-sm text-gray-700 bg-gray-100 rounded">
                       +{project.technologies.length - 3} more
                     </span>
                   )}
                 </div>
                 
-                <div className="flex justify-between items-center">
+                <div className="flex items-center justify-between">
                   <button
                     onClick={() => setSelectedProject(project)}
-                    className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-200"
+                    className="px-4 py-2 font-medium text-white transition-colors duration-200 bg-blue-600 rounded-lg hover:bg-blue-700"
                   >
                     View Details
                   </button>
                   <a
                     href={project.link}
-                    className="flex items-center text-blue-600 hover:text-blue-700 transition-colors duration-200"
+                    className="flex items-center text-blue-600 transition-colors duration-200 hover:text-blue-700"
                   >
                     <ExternalLink className="w-4 h-4 mr-1" />
                     <span className="text-sm">Live Demo</span>
