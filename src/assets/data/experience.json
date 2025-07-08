@@ -1,7 +1,7 @@
 {
   "experience": [
     {
-      "company": "PT Wolkk Cloud Development",
+      "company": "Wolkk Cloud Development",
       "position": "QA Engineer, Business Analyst, and Product Owner",
       "duration": "2022 - Present",
       "location": "Remote, Germany -> Indonesia",
@@ -15,32 +15,36 @@
       "technologies": ["Selenium", "TestNG", "Jenkins", "Docker", "JIRA", "Confluence", "Postman", "Git", "Agile", "Scrum", "Kanban"]
     },
     {
-      "company": "InnovateTech",
-      "position": "QA Engineer",
-      "duration": "2018 - 2020",
-      "location": "Seattle, WA",
-      "description": "Developed automated testing frameworks and executed comprehensive testing strategies for web and mobile applications.",
+      "company": "360 Tech Solutions",
+      "position": "Project Manager",
+      "duration": "2019 - 2021",
+      "location": "On-site, Central Jakarta, Indonesia",
+      "description": "Led digital product launch, drove IDR 150M+ revenue, secured recurring income, aligned cross-teams, and ensured smooth delivery with risk mitigation.",
       "achievements": [
-        "Built automated testing framework reducing manual testing by 60%",
-        "Improved test coverage from 40% to 85% across all applications",
-        "Implemented API testing strategy for microservices architecture",
-        "Collaborated with development teams to establish testing standards"
+        "Launched digital product, earning IDR 150M via pre-sales and partners",
+        "Scaled pilot to IDR 22M monthly recurring revenue with strong market fit",
+        "Led cross-team delivery, ensuring on-time, on-budget project execution",
+        "Built strategic roadmaps to align scope, timelines, and team resources",
+        "Created risk plans to detect blockers early and keep progress smooth"
       ],
-      "technologies": ["Cypress", "Appium", "Python", "Postman", "TestRail", "Git"]
+      "technologies": ["JIRA", "Confluence", "Notion", "Postman", "TestRail", "Git", "Agile", "Scrum", "Kanban", "Miro", "Figma"]
     },
     {
-      "company": "StartupXYZ",
-      "position": "Junior QA Engineer",
-      "duration": "2016 - 2018",
-      "location": "Austin, TX",
-      "description": "Performed manual and automated testing for early-stage startup products, contributing to quality assurance processes.",
+      "company": "DBS Bank Indonesia",
+      "position": "Application Analyst & Assurance",
+      "duration": "2017 - 2019",
+      "location": "On-Site, South Jakarta, Indonesia",
+      "description": "Performed manual & automated testing including creating test data for early-stage Digibank personal loan.",
       "achievements": [
-        "Established initial QA processes and documentation",
-        "Performed comprehensive testing for 5 product releases",
-        "Identified and documented 500+ bugs across various platforms",
-        "Contributed to improving overall product quality by 40%"
+        "Built credit scoring using 1,500+ test data to simulate banking cases",
+        "Integrated real-time scoring and fraud checks with data and dev teams",
+        "Expanded loan limits from 3–15M to 7–300M while keeping compliance",
+        "Drove UX and system updates through risk and ops-aligned feedback",
+        "Matched business needs with system features via requirement analysis",
+        "Wrote system docs and guides to boost onboarding and reduce support tickets",
+        "Ran end-to-end tests to validate fraud logic before production launch"
       ],
-      "technologies": ["Selenium", "Manual Testing", "Bug Tracking", "Test Documentation"]
+      "technologies": ["Selenium", "JIRA", "Confluence", "Postman", "TestRail", "Git", "Agile", "Scrum", "SQL", "TestRail", "Miro", "Figma"]
     }
   ]
 }
