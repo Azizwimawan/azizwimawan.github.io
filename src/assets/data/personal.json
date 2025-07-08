@@ -1,15 +1,15 @@
 {
-  "name": "Aziz Tampan Dan Berani",
-  "title": "Fullstuck Developer",
-  "subtitle": "Test Automation & Quality Assurance Specialist",
-  "location": "San Francisco, CA",
-  "email": "alex.thompson@example.com",
-  "phone": "+1 (555) 123-4567",
-  "linkedin": "https://linkedin.com/in/alexthompson",
-  "github": "https://github.com/alexthompson",
-  "bio": "Passionate QA Engineer with 8+ years of experience in test automation, performance testing, and quality assurance. Specialized in building robust testing frameworks and implementing CI/CD pipelines that ensure software quality at scale.",
-  "yearsOfExperience": 8,
-  "projectsCompleted": 150,
-  "bugsFound": 2500,
-  "testCasesWritten": 5000
+  "name": "Aziz Wimawan Kuswanputra",
+  "title": "Dynamic Product owner, Business Analyst, & Quality Assurance",
+  "subtitle": "Driven by curiosity and execution, I’ve led cross-border tech rollouts, QA initiatives, and product strategies while bridging business and engineering to deliver scalable solutions",
+  "location": "Bekasi, Indonesia",
+  "email": "azizwimawan@gmail.com",
+  "phone": "(+62) 857-1547-3536",
+  "linkedin": "https://www.linkedin.com/in/azizwimawan/",
+  "github": "https://github.com/Azizwimawan",
+  "bio": "Versatile tech lead with 7+ years spanning QA, Product Ownership, and Business Analysis. Specialized in POS rollouts, cross-border software adaptation, and test automation. Proven track record of bridging business goals with quality-first execution—powered by process, empathy, and a borderline unhealthy obsession with system integrity.",
+  "yearsOfExperience": 7,
+  "projectsCompleted": 38,
+  "bugsFound": 988,
+  "testCasesWritten": 1300
 }
