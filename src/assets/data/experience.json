@@ -1,18 +1,18 @@
 {
   "experience": [
     {
-      "company": "WMWN.Corp",
-      "position": "Senior QA Engineer",
-      "duration": "2020 - Present",
-      "location": "San Francisco, CA",
-      "description": "Leading QA initiatives for multiple product lines, mentoring junior QA engineers, and implementing comprehensive testing strategies.",
+      "company": "PT Wolkk Cloud Development",
+      "position": "QA Engineer, Business Analyst, and Product Owner",
+      "duration": "2022 - Present",
+      "location": "Remote, Germany -> Indonesia",
+      "description": "led cross-country POS rollouts across Europe—aligning legal, business, and tech requirements—while driving Agile delivery, QA excellence, and stakeholder collaboration to ensure smooth market launches",
       "achievements": [
-        "Reduced production bugs by 75% through improved testing processes",
+        "Led EU POS rollouts, aligned legal needs, managed resources, synced stakeholders, and bridged global goals with local market priorities.",
         "Implemented CI/CD testing pipeline reducing deployment time by 50%",
-        "Mentored 5 junior QA engineers and established QA best practices",
-        "Led cross-functional testing efforts for 3 major product launches"
+        "Led EU POS rollouts in Italy, Lithuania, and Hungary while bridging legal, tech, and business needs while ensuring compliance, clarity, and smooth delivery.",
+        "Led POS testing, created documentation, ensured compliance and performance, and resolved bugs with Dev teams to deliver smooth, reliable rollouts."
       ],
-      "technologies": ["Selenium", "TestNG", "Jenkins", "Docker", "JIRA", "Confluence"]
+      "technologies": ["Selenium", "TestNG", "Jenkins", "Docker", "JIRA", "Confluence", "Postman", "Git", "Agile", "Scrum", "Kanban"]
     },
     {
       "company": "InnovateTech",
