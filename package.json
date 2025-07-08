@@ -12,7 +12,7 @@
     "typescript",
     "automation"
   ],
-  "author": "Alex Thompson",
+  "author": "Aziz Wimawan Kuswanputra",
   "license": "MIT",
   "scripts": {
     "dev": "vite",
