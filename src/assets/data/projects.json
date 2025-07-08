@@ -3,12 +3,12 @@
     {
       "id": "1",
       "title": "Peek & Cloppenburg POS App (Hungary Roll-out)",
-      "description": "Leading POS innovation in fiscalized markets with Flutter, RetailForce & Adyen integration",
-      "category": "Front-End Testing",
-      "technologies": ["Selenium", "JIRA", "Confluence", "Selenium", "Docker"],
+      "description": "Leading QA for POS innovation in fiscalized markets with Flutter, RetailForce & Adyen integration",
+      "category": "Front-End Integration Testing",
+      "technologies": ["Selenium", "JIRA", "Confluence", "Selenium", "Docker", "Miro", "Postman"],
       "image": "https://editorial.fidcdn.net/cdn-cgi/image/width=1400,height=1400,fit=cover,format=auto,gravity=0.48830409356725146x0.5833333333333334/cms/dam/jcr:efa52b10-8cfb-4b3f-978c-1fd7cb584eca/Ungarn_Budapest%20Etele%20Center_548.jpeg",
-      "duration": "12 months",
-      "teamSize": "57",
+      "duration": "14 months",
+      "teamSize": "7",
       "testCases": "680+",
       "coverage": "96%",
       "highlights": [
@@ -22,57 +22,58 @@
         "Dynamic content and real-time updates",
         "Payment gateway integration testing"
       ],
-      "tools": ["Selenium", "JIRA", "Confluence", "Selenium", "Docker", "agile methodologies", "Postman"],
+      "tools": ["Selenium", "JIRA", "Confluence", "Selenium", "Docker", "agile methodologies", "Postman", "Miro", "Git"],
       "link": "#"
     },
     {
       "id": "2",
-      "title": "Mobile Banking App Quality Assurance",
-      "description": "End-to-end testing strategy for a secure mobile banking application with biometric authentication",
-      "category": "Mobile Testing",
-      "technologies": ["Appium", "TestNG", "Java", "BrowserStack", "JIRA"],
-      "image": "https://images.pexels.com/photos/404973/pexels-photo-404973.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "duration": "8 months",
-      "teamSize": "4",
+      "title": "Xentral Pos App Gmbh (Germany Roll-out)",
+      "description": "Product Owner for Flutter-based POS project, driving compliance and UX for the German retail market",
+      "category": "Front-End Development",
+      "technologies": ["Selenium", "JIRA", "Confluence", "Miro", "JIRA"],
+      "image": "https://cdn.prod.website-files.com/63c5853e5922f703cea4293e/63ef72d76a21f3077d9bbbf3_Xentralxprocuros_blog%20(1).png",
+      "duration": "11 months",
+      "teamSize": "5",
       "testCases": "800+",
-      "coverage": "98%",
+      "coverage": "93%",
       "highlights": [
-        "Implemented cross-platform testing strategy",
-        "Achieved 98% test coverage including security tests",
-        "Reduced critical bugs in production by 90%",
-        "Established automated regression testing pipeline"
+        "End-to-End Testing Ownership",
+        "Localization & Compliance QA",
+        "Xentral ERP Integration Testing",
+        "Cross-Platform QA with Flutter",
+        "Stakeholder Alignment"
       ],
       "challenges": [
-        "Biometric authentication testing",
+        "Credentials authentication testing",
         "Multi-device compatibility",
         "Security and compliance requirements"
       ],
-      "tools": ["Appium", "TestNG", "BrowserStack", "Charles Proxy", "JIRA", "Confluence"],
+      "tools": ["Appium", "Selenium", "Miro", "Postman", "JIRA", "Confluence", "Git", "agile methodologies", "scrum"],
       "link": "#"
     },
     {
       "id": "3",
-      "title": "API Testing Framework Development",
+      "title": "Peek & Cloppenburg POS App (Italy Development)",
       "description": "Custom API testing framework for microservices architecture with automated contract testing",
       "category": "API Testing",
-      "technologies": ["RestAssured", "Python", "Pytest", "Docker", "Swagger"],
-      "image": "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800",
-      "duration": "4 months",
-      "teamSize": "3",
-      "testCases": "500+",
-      "coverage": "100%",
+      "technologies": ["Flutter", "RestAPI", "CI/CD", "Docker", "Swagger", "JIRA", "Confluence", "Postman", "Miro", "Azure DevOps", "Figma"],
+      "image": "https://editorial.fidcdn.net/cdn-cgi/image/width=1400,height=952.3809523809524,fit=cover,format=auto,gravity=0.5x0.5/cms/dam/jcr:42b90c30-80cb-4c65-ab7f-bd91ac9ba3fd/Berlin%20Weltstadthaus11.jpg",
+      "duration": "18 months",
+      "teamSize": "7",
+      "testCases": "910+",
+      "coverage": "98%",
       "highlights": [
-        "Built reusable API testing framework",
-        "Implemented contract testing with Pact",
-        "Achieved 100% API endpoint coverage",
-        "Reduced API testing time by 70%"
+        "User story creation, sprint planning, backlog grooming",
+        "Documentation of features, workflows, and integration logic",
+        "For flowcharting, wireframes, or collaborative brainstorming",
+        "To test APIs and understand request/response structures during integration"
       ],
       "challenges": [
-        "Complex microservices dependencies",
-        "Dynamic API contracts",
+        "Complex database dependencies",
+        "Dynamic API and Middleware interactions",
         "Performance testing requirements"
       ],
-      "tools": ["RestAssured", "Postman", "Swagger", "Pact", "Newman", "JMeter"],
+      "tools": ["Flutter", "RestAPI", "CI/CD", "Docker", "Swagger", "JIRA", "Confluence", "Postman", "Miro", "Azure DevOps", "Figma"],
       "link": "#"
     },
     {
